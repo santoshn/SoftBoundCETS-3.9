@@ -10,6 +10,9 @@ add_llvm_library(LLVMInstrumentation
   PGOInstrumentation.cpp
   SanitizerCoverage.cpp
   ThreadSanitizer.cpp
+  SoftBoundCETS.cpp
+  FixByValAttributes.cpp
+  InitializeSoftBoundCETS.cpp
   EfficiencySanitizer.cpp
 
   ADDITIONAL_HEADER_DIRS
